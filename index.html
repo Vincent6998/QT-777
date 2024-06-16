@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/style.css"> <!-- Assurez-vous d'inclure votre fichier CSS ici -->
+</head>
+<body>
+    <div id="quiz" class=""container centered"">
+        <h1>QT B777</h1>
+        <div id="categories">
+            <!-- Les catégories seront ajoutées ici dynamiquement -->
+        </div>
+        <button id="startButton">Commencer le quiz</button>
+        <div id="question"></div>
+        <div id="choices"></div>
+        <button id="nextButton" style="display: none;">Question suivante</button>
+        <button id="restartButton" style="display: none;">Recommencer</button>
+    </div>
+    <script src="quiz.js"></script> 
+    <script>
+    }
+    // Fonction pour démarrer le quiz
+    function startQuiz(selectedCategories) {
+        console.log("Starting quiz...");
+        selectedQuestions = filterQuestionsByCategory(selectedCategories);
+        console.log("Selected questions:", selectedQuestions);
+        allQuestionsCopy = [...selectedQuestions];
+        shuffleQuestions();
+        document.getElementById("startButton").style.display = "none";
+        document.getElementById("quiz").style.display = "block";
+        displayQuestion();
+    }
+
+    // Gérer les événements pour les boutons "Question suivante" et "Recommencer"
+    document.getElementById("nextButton").addEventListener("click", nextQuestion);
+    document.getElementById("restartButton").addEventListener("click", restartQuiz);
+
+    // Gérer l'événement pour le bouton "Commencer le quiz"
+    document.getElementById("startButton").addEventListener("click", function() {
+        let selectedCategories = Array.from(document.querySelectorAll("#categories input:checked")).map(input => input.value);
+        if (selectedCategories.length === 0) {
+            alert("Veuillez sélectionner au moins une catégorie.");
+            return;
+        }
+        startQuiz(selectedCategories);
+    });
+    // Afficher les catégories dès le chargement de la page
+    displayCategories();
+    </script>
+</body>
+</html>
