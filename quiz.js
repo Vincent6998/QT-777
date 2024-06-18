@@ -220,88 +220,97 @@ const allQuestions = [
         "correctAnswer": "A",
         "category": "ATA 22"
     },
-	{
-    "question": "The B777 has:",
-    "choices": [
-        "A) 1 AOA sensor on the right side of the fuselage",
-        "B) 1 AOA sensor on the left side of the fuselage",
-        "C) 2 AOA sensors: one on each side of the fuselage"
-    ],
-    "correctAnswer": "C",
-    "category": "ATA 34"
-},
 {
-    "question": "The ADIRU has:",
+        "question": "The B777 has:",
+        "choices": [
+            "A) 1 AOA sensor on the right side of the fuselage",
+            "B) 1 AOA sensor on the left side of the fuselage",
+            "C) 2 AOA sensors: one on each side of the fuselage"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The ADIRU has:",
+        "choices": [
+            "A) 4 ring laser gyros",
+            "B) 6 ring laser gyros",
+            "C) 4 Fiber Optic gyros"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "In the ADIRS there are:",
+        "choices": [
+            "A) 3 Inertial Reference Units and 3 Air Data Reference Functions",
+            "B) 2 Air Data and Inertial Reference Functions",
+            "C) 1 ADIRU and 1 SAARU"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The B777 has:",
+        "choices": [
+            "A) 3 pitot probes",
+            "B) 3 pairs of pitot probe",
+            "C) 2 pitot probes"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The SAARU:",
+        "choices": [
+            "A) is a backup to the ADIRU",
+            "B) supplies air data to the Integrated Standby Flight Display",
+            "C) isn't powered on ground"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+{
+    "question": "When the AIR DATA / ATT switch on the right ISSP is set to ALTN, F/O's EFIS air data comes from:",
     "choices": [
-        "A) 4 ring laser gyros",
-        "B) 6 ring laser gyros",
-        "C) 4 Fiber Optic gyros"
+        "A) SAARU single channel (right)",
+        "B) ADIRU single channel (left)",
+        "C) SAARU Redundancy Management Function"
     ],
     "correctAnswer": "B",
     "category": "ATA 34"
 },
-{
-    "question": "In the ADIRS there are:",
-    "choices": [
-        "A) 3 Inertial Reference Units and 3 Air Data Reference Functions",
-        "B) 2 Air Data and Inertial Reference Functions",
-        "C) 1 ADIRU and 1 SAARU"
-    ],
-    "correctAnswer": "C",
-    "category": "ATA 34"
-},
-{
-    "question": "The B777 has:",
-    "choices": [
-        "A) 3 pitot probes",
-        "B) 3 pairs of pitot probe",
-        "C) 2 pitot probes"
-    ],
-    "correctAnswer": "A",
-    "category": "ATA 34"
-},
-{
-    "question": "The SAARU:",
-    "choices": [
-        "A) is a backup to the ADIRU",
-        "B) supplies air data to the Integrated Standby Flight Display",
-        "C) isn't powered on ground"
-    ],
-    "correctAnswer": "A",
-    "category": "ATA 34"
-},
-{
-    "question": "The communication protocole of the standby Air Data Modules is:",
-    "choices": [
-        "A) Arinc 429",
-        "B) Arinc 618",
-        "C) Arinc 629"
-    ],
-    "correctAnswer": "A",
-    "category": "ATA 34"
-},
-{
-    "question": "Air from the left air conditioning pack cross manifold creates a venturi effect inside the TAT probe to:",
-    "choices": [
-        "A) prevent icing of the probe",
-        "B) reduce the drag created by the probe",
-        "C) provide an accurate temperature measurement when the airplane is at low SPD"
-    ],
-    "correctAnswer": "C",
-    "category": "ATA 34"
-},
-{
-    "question": "The SAARU sends data to user systems on:",
-    "choices": [
-        "A) the center flight controls ARINC 629 bus",
-        "B) the left and right flight controls ARINC 629 buses",
-        "C) the 4 systems ARINC 629 buses"
-    ],
-    "correctAnswer": "A",
-    "category": "ATA 34"
-},
-
-{
+    {
+        "question": "The communication protocole of the standby Air Data Modules is:",
+        "choices": [
+            "A) Arinc 429",
+            "B) Arinc 618",
+            "C) Arinc 629"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+    {
+        "question": "Air from the left air conditioning pack cross manifold creates a venturi effect inside the TAT probe to:",
+        "choices": [
+            "A) prevent icing of the probe",
+            "B) reduce the drag created by the probe",
+            "C) provide an accurate temperature measurement when the airplane is at low SPD"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The SAARU sends data to user systems on:",
+        "choices": [
+            "A) the center flight controls ARINC 629 bus",
+            "B) the left and right flight controls ARINC 629 buses",
+            "C) the 4 systems ARINC 629 buses"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+    {
         "question": "Standby Air Data Modules:",
         "choices": [
             "A) aren't interchangeable with an ADMs",
@@ -381,8 +390,7 @@ const allQuestions = [
         "correctAnswer": "B",
         "category": "ATA 34"
     },
-
-{
+    {
         "question": "When the ADIRU has a failure of one gyro there is:",
         "choices": [
             "A) a caution message",
@@ -452,8 +460,7 @@ const allQuestions = [
         "correctAnswer": "C",
         "category": "ATA 34"
     },
-
-{
+    {
         "question": "The ADIRU receives TAT data:",
         "choices": [
             "A) via a SADM",
@@ -483,17 +490,7 @@ const allQuestions = [
         "correctAnswer": "C",
         "category": "ATA 34"
     },
-    {
-        "question": "When the AIR DATA / ATT switch on the right ISSP is set to ALTN, F/O's EFIS air data comes from:",
-        "choices": [
-            "A) SAARU single channel (right)",
-            "B) ADIRU single channel (left)",
-            "C) SAARU Redundancy Management Function"
-        ],
-        "correctAnswer": "B",
-        "category": "ATA 34"
-    },
-    {
+{
         "question": "When the ISFD displays \"INIT 90s\":",
         "choices": [
             "A) it is the time to complete the air data sensors calibration",
@@ -533,67 +530,66 @@ const allQuestions = [
         "correctAnswer": "A",
         "category": "ATA 34"
     },
-
-{
-    "question": "When the left and right ADMs are failed:",
-    "choices": [
-        "A) the EFIS displays single channel air data from the SAARU",
-        "B) air data is displayed on the standby instruments",
-        "C) air data appears on the CDUs"
-    ],
-    "correctAnswer": "B",
-    "category": "ATA 34"
-},
-{
-    "question": "Dashes replace box prompts on the CDU 'POSITION INIT' page when:",
-    "choices": [
-        "A) the ADIRU alignment cannot finish",
-        "B) the GPS position is available",
-        "C) the ADIRU is in the Navigation Mode"
-    ],
-    "correctAnswer": "A",
-    "category": "ATA 34"
-},
-{
-    "question": "If the ADIRU is failed and SAARU backup navigation function goes invalid:",
-    "choices": [
-        "A) the AFDS TO/GA mode stays engaged",
-        "B) the AFDS FPA mode stays engaged",
-        "C) Some AFDS modes do not operate"
-    ],
-    "correctAnswer": "C",
-    "category": "ATA 34"
-},
-{
-    "question": "How many Fault Containment Areas does the ADIRU have?",
-    "choices": [
-        "A) 3",
-        “B) 5”,
-        “C) 7”
-],
-“correctAnswer”: “C”,
-“category”: “ATA 34”
-},
-{
-“question”: “The TAT probe heater is controlled by:”,
-“choices”: [
-“A) the center pitot ADM”,
-“B) the WOW card”,
-“C) the AIMS cabinets”
-],
-“correctAnswer”: “B”,
-“category”: “ATA 34”
-},
-{
-“question”: “The ADIRU drift rate on the inertial monitor page clears:”,
-“choices”: [
-“A) at the next ground-to-air transition”,
-“B) when the airplane is on the ground and the engines are shut down”,
-“C) at the next first engine start”
-],
-“correctAnswer”: “A”,
-“category”: “ATA 34”
-},
+    {
+        "question": "When the left and right ADMs are failed:",
+        "choices": [
+            "A) the EFIS displays single channel air data from the SAARU",
+            "B) air data is displayed on the standby instruments",
+            "C) air data appears on the CDUs"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "Dashes replace box prompts on the CDU ‘POSITION INIT’ page when:",
+        "choices": [
+            "A) the ADIRU alignment cannot finish",
+            "B) the GPS position is available",
+            "C) the ADIRU is in the Navigation Mode"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+    {
+        "question": "If the ADIRU is failed and SAARU backup navigation function goes invalid:",
+        "choices": [
+            "A) the AFDS TO/GA mode stays engaged",
+            "B) the AFDS FPA mode stays engaged",
+            "C) Some AFDS modes do not operate"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "How many Fault Containment Areas does the ADIRU have?",
+        "choices": [
+            "A) 3",
+            "B) 5",
+            "C) 7"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The TAT probe heater is controlled by:",
+        "choices": [
+            "A) the center pitot ADM",
+            "B) the WOW card",
+            "C) the AIMS cabinets"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The ADIRU drift rate on the inertial monitor page clears:",
+        "choices": [
+            "A) at the next ground-to-air transition",
+            "B) when the airplane is on the ground and the engines are shut down",
+            "C) at the next first engine start"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
  {
         "question": "What air pressure(s) used by ADIRU and SAARU to calculate airspeed?",
         "choices": [
