@@ -220,6 +220,266 @@ const allQuestions = [
         "correctAnswer": "A",
         "category": "ATA 22"
     },
+	{
+    "question": "ADF antennas are located:",
+    "choices": [
+        "A) on the top of the vertical stabilizer",
+        "B) behind the radome",
+        "C) on the top of the fuselage"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "The ADF tune mode can be:",
+    "choices": [
+        "A) M, P, R or A",
+        "B) M or A only",
+        "C) M only"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "The TCAS sends aural alerts to:",
+    "choices": [
+        "A) the Ground Proximity Warning System",
+        "B) the Warning Electronic System",
+        "C) the 2 TCAS Directional Antennas"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "The part of the weather radar system that shouldn't be removed from the airplane is:",
+    "choices": [
+        "A) the waveguide",
+        "B) the waveguide switch",
+        "C) the antenna mount assembly"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "To switch on the Weather Radar you use:",
+    "choices": [
+        "A) Nothing, WXR is controlled by the Flight Management Function",
+        "B) a switch on the EFIS Control Panel",
+        "C) a switch on the Display Select Panel"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "A TCAS can track an airplane:",
+    "choices": [
+        "A) that is equipped with an ATC Radio Beacon System transponder",
+        "B) only if the airplane is equipped with an ATC Mode S transponder",
+        "C) even if the airplane doesn't have a transponder"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 34"
+},
+{
+    "question": "The WXR control panel receives power from:",
+    "choices": [
+        "A) the P11 Overhead Circuit Breaker panel",
+        "B) the left and right WXR receiver/transmitters",
+        "C) the CAPT FLT INST bus"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "WXR data can be displayed on:",
+    "choices": [
+        "A) the Primary Flight Display",
+        "B) the Electronic Flight Bag",
+        "C) the ND in the Expanded APP, VOR, MAP and centered MAP modes"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "The WXR predictive windshear function turns on when:",
+    "choices": [
+        "A) the FMCF sends an APP discrete to the WXR transceiver",
+        "B) the Flight Crew selects PWS on the control panel",
+        "C) an engine is set to the take-off thrust on the ground",
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "The WXR Predictive Windshear function is armed via a discrete sent by:",
+    "choices": [
+        "A) the Mode Control Panel",
+        "B) the Warning Electronic System",
+        "C) the WXR Control Panel"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "The Predictive Windshear (PWS) function of the WXR uses Radio Altitude to:",
+    "choices": [
+        "A) prioritize the different alerts",
+        "B) turn PWS ON and OFF",
+        "C) compute Wind speeds"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "Predictive windshear symbol is displayed on:",
+    "choices": [
+        "A) the PFD",
+        "B) the ND",
+        "C) both the PFD and ND"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "During a windshear alert the WXR PWS card makes an inhibit discrete that:",
+    "choices": [
+        "A) changes TCAS Resolution Advisories to Traffic Advisories",
+        "B) disconnects the Autopilot",
+        "C) initiates an automatic Go-Around"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 34"
+},
+{
+    "question": "On the WXR control panel the TFR switch is used to:",
+    "choices": [
+        "A) select the left or right WXR transceiver",
+        "B) cause the RT to use the same mode, tilt and gain as the other side",
+        "C) select the weather and turbulence mode"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "When you select the WXR switch on the EFIS CTL Panel:",
+    "choices": [
+        "A) the 2 WXR RTs are switched on",
+        "B) the WXR data shows on the 2 NDs",
+        "C) the WXR data shows on the onside ND"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "The WXR system:",
+    "choices": [
+        "A) shouldn't be operated if there is an open fuel cell less than 50ft away",
+        "B) can be used if there is a fuel leakage less than 50ft away",
+        "C) can be used if personnel is working in the nose radome"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 34"
+},
+{
+    "question": "The 2 switches of the WXR antenna pedestal:",
+    "choices": [
+        "A) prevent each WXR transceiver from emitting",
+        "B) are used to make a test of the WXR system",
+        "C) are elevation and scan disable switches"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "In case of simultaneous TCAS and WXR warnings an alert inhibit discrete is sent:",
+    "choices": [
+        "A) by the WEUs to the TCAS computer",
+        "B) by the WEUs to the WXR RT",
+        "C) by the WXR RT to the TCAS computer"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "If the right DME fails, the right DME distance on the first officer VOR mode display:",
+    "choices": [
+        "A) shows dashes",
+        "B) is replaced by the left DME distance",
+        "C) shows an amber DME flag"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "Radio Altitude is used by:",
+    "choices": [
+        "A) the autobrake system",
+        "B) the Flight Management Computing Functions",
+        "C) the Weather Radar"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "On the Captain's PFD and ND, if the left DME fails during an ILS approach:",
+    "choices": [
+        "A) the DME flag replaces the DME distance",
+        "B) the right DME distance is shown instead of the left DME distance",
+        "C) a flag replaces the left DME distance but the right DME is still shown"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 34"
+},
+{
+    "question": "To listen to a DME station audio identifier When the ND Mode Selector on the EFIS Control Panel is set to APP:",
+    "choices": [
+        "A) set the ACP MKR/APP switch to the appropriate APP position + adjust volume",
+        "B) set the ACP VOR/ADF switch to the appropriate position + adjust volume",
+        "C) push the ACP center VHF receiver volume control to listen to DME DATA"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 34"
+},
+{
+    "question": "Marker Beacon data appear on:",
+    "choices": [
+        "A) the Navigation Display",
+        "B) the Primary Flight Display",
+        "C) any Multi-Function Display"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
+{
+    "question": "During a Marker Beacon test the indication on the PFD is:",
+    "choices": [
+        "A) FT",
+        "B) TEST",
+        "C) MBT"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 34"
+},
+{
+    "question": "The Left ATC/mode S transponder uses:",
+    "choices": [
+        "A) the bottom ATC antenna only",
+        "B) the top ATC antenna to transmit and the bottom ATC antenna to receive",
+        "C) the 2 antennas at the same time"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 34"
+},
+{
+    "question": "The DME/ATC/TCAS suppression splitter:",
+    "choices": [
+        "A) filters background noise from received signals",
+        "B) prevents the operation of the receiver circuits during signal transmissions",
+        "C) splits the transmitted signal in 2 to share it between 2 antennas"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 34"
+},
 	 {
         "question": "Radio Altitude indication becomes blank when the RA is more than:",
         "choices": [
