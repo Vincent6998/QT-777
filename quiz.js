@@ -220,6 +220,246 @@ const allQuestions = [
         "correctAnswer": "A",
         "category": "ATA 22"
     },
+	 {
+        "question": "Radio Altitude indication becomes blank when the RA is more than:",
+        "choices": [
+            "A) 500 ft",
+            "B) 1500 ft",
+            "C) 2500 ft"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The CDU ALTN NAV RADIO Page is available:",
+        "choices": [
+            "A) when the tuning buses of the AIMS cabinets have failed",
+            "B) when the left and right CDU auto-tune functions are failed",
+            "C) when the center CDU auto-tune function is failed"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+    {
+        "question": "It isn't possible to data load:",
+        "choices": [
+            "A) the SAARU",
+            "B) an ADM",
+            "C) A SADM"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "When only the left Radio Altimeter fails, the left PFD:",
+        "choices": [
+            "A) Doesn't show Radio Altitude",
+            "B) displays the right RA",
+            "C) displays the center RA"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The left CDU sends a frequency source select discrete to the left and center MMRs to:",
+        "choices": [
+            "A) inhibit tests in the air",
+            "B) inhibit ILS tuning when the airplane is near landing",
+            "C) select the tune input"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "ILS antenna switching occurs:",
+        "choices": [
+            "A) when the flight crew selects the APP mode on the MCP",
+            "B) when the autopilot flight director computers supply a request discrete",
+            "C) automatically below 1500 ft RA"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The Radio Altimeter flag appears:",
+        "choices": [
+            "A) when the onside RA is failed",
+            "B) when the onside and center RAs are failed",
+            "C) when the left, center and right RAs are failed"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The Nav Radio page shows ILS frequency and PARK when:",
+        "choices": [
+            "A) the airplane is at more than 200 Nm from the top of descent",
+            "B) as long as the airplane is in the first half of its flight",
+            "C) the airplane is at less than 200 Nm from the top of descent"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "When the FMCS has an active flight plan the VOR receiver is tuned by:",
+        "choices": [
+            "A) the Radio Tuning Panel",
+            "B) the center CDU 'Nav Radio' page",
+            "C) the left or right AIMS"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The center Multi Mode Receiver (MMR) can get Alternate Tuning data from:",
+        "choices": [
+            "A) the left CDU",
+            "B) the left or right CDU",
+            "C) the left or center CDU"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The center CDU:",
+        "choices": [
+            "A) has an alternate tune function for the center MMR",
+            "B) has an alternate tune function for the right MMR",
+            "C) doesn't have an alternate tune function for any MMR"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "To manually tune a VOR receiver you use:",
+        "choices": [
+            "A) the MFD Comm page",
+            "B) the CDU Nav Radio page",
+            "C) the Radio Tuning Panel"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "If the left VOR Marker Beacon receiver fails:",
+        "choices": [
+            "A) The letters FT are displayed on the PFD",
+            "B) The AIMS cabinets don't supply marker beacon display data to the PFDs",
+            "C) the right VOR Marker Beacon receiver data is used"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The ILS Antenna switching occurs:",
+        "choices": [
+            "A) at landing gear extension",
+            "B) when AFDCs supply ILS ANT request discretes to control switches position",
+            "C) at Localizer or GlideSlope signal capture"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "Each ILS Receiver (MMR) supplies data to:",
+        "choices": [
+            "A) the Left, Center and Right AFDCs (Autopilot Flight Director Computer)",
+            "B) its onside AFDC",
+            "C) the Integrated Standby Flight Display (ISFD)"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "To do the ILS test for the integrated standby flight display (ISFD), you test:",
+        "choices": [
+            "A) the Left Instrument Landing System",
+            "B) the Right Instrument Landing System",
+            "C) the Center Instrument Landing System"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "Why does the CDU Nav Radio Page allow only one ILS tuning frequency?",
+        "choices": [
+            "A) because each CDU tunes its onside ILS receiver",
+            "B) because the ILS receiver to tune has to be selected first from a RTP",
+            "C) because the 3 ILS receivers are tuned to the same frequency"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "To inhibit a tune of the ILS receivers when G/S and LOC are active with the A/P engaged a tune inhibit discrete is sent:",
+        "choices": [
+            "A) by the onside AFDC",
+            "B) by the onside CDU",
+            "C) by the onside MMR"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The AIMS priority selection of ILS display data on the PFD is:",
+        "choices": [
+            "A) Right, Center, Left for the 2 PFDs",
+            "B) Left, Center, Right for the First Officer's PFD",
+            "C) Right, Center, Left for the First Officer's PFD"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "If the Left ILS receiver test sequence goes invalid and the LOC and G/S flags do not show on the left EFIS this is:",
+        "choices": [
+            "A) not normal and you do the test again",
+            "B) normal because there are no LOC and G/S flags",
+            "C) normal because the AIMS cabinets have changed the source of the ILS data"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The LOC and G/S flags show when:",
+        "choices": [
+            "A) the onside ILS receiver fails.",
+            "B) all three ILS receivers fail.",
+            "C) the onside ILS receiver and the GPS fail."
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The GPS can compute:",
+        "choices": [
+            "A) the attitude",
+            "B) the altitude",
+            "C) the airspeed"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 34"
+    },
+    {
+        "question": "To compute the airplane position the GPS receiver:",
+        "choices": [
+            "A) uses the time it takes for a radio signal to reach a SAT and come back",
+            "B) receives the A/C position measured by the satellite",
+            "C) uses the time it takes radio signals to go from the satellites to the A/C"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 34"
+    },
+    {
+        "question": "The EGPWS gets ILS deviations from:",
+        "choices": [
+            "A) the left MMR",
+            "B) the left and right MMR simultaneously",
+            "C) the left or right MMR depending on the active AFDC"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 34"
+    },
 {
         "question": "The B777 has:",
         "choices": [
