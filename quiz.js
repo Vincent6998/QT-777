@@ -15390,8 +15390,6 @@ const allQuestions = [
 },	
   ];
 
-document.addEventListener('DOMContentLoaded', () => {
-
 let currentQuestion = 0;
 let score = 0;
 let timer;
