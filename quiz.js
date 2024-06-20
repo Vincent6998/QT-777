@@ -15410,10 +15410,11 @@ function sortCategories(categories) {
         return numA - numB;
     });
 }
+
 function displayCategories() {
     console.log("Displaying categories...");
     let categories = [...new Set(allQuestions.map(question => question.category))];
-categories = sortCategories(categories);
+    categories = sortCategories(categories);
     let categoriesHTML = categories.map(category => `<label><input type="checkbox" value="${category}">${category}</label>`).join("");
     let categoriesElement = document.getElementById("categories");
     if (categoriesElement) {
@@ -15490,7 +15491,11 @@ function checkAnswer() {
         choices.forEach((choice) => {
             choice.disabled = true;
         });
-        document.getElementById("nextButton").disabled = false;
+
+        const nextButton = document.getElementById("nextButton");
+        if (nextButton) {
+            nextButton.disabled = false;
+        }
 
         clearTimeout(timer);
         startTimer();
@@ -15578,4 +15583,3 @@ displayCategories();
             localStorage.setItem('dark-mode', 'disabled');
         }
     });
-});	
