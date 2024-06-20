@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    
+    color: #000;
+    
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,6 +11,13 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
 
 #quiz {
     display: flex;
@@ -21,6 +31,13 @@ body {
     margin: 20px; /* Ajout de marge autour du quiz */
     position: relative;
 }
+
+
+.dark-mode #quiz {
+    background-color: #333;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
 
 h1 {
     text-align: center;
@@ -50,4 +67,48 @@ button {
 
 .question {
     font-weight: bold; /* Mettre les questions en gras */
+}
+
+/* Styles pour le toggle switch */
+.toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    background-color: #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.toggle-ball {
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: transform 0.3s;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #333;
+}
+
+.toggle-checkbox:checked + .toggle-label .toggle-ball {
+    transform: translateX(30px);
 }
