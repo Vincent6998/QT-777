@@ -1,6 +1,446 @@
 const allQuestions = [
 
-{
+ {
+    "question": "How many BackDrive Actuators are active during a stabilized autoland ILS approach above 1500ft:",
+    "choices": [
+      "A) 2",
+      "B) 3",
+      "C) 4"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 22"
+  },
+  {
+    "question": "How many BackDrive Actuators are active during a stabilized autoland ILS approach below 1500ft:",
+    "choices": [
+      "A) 3",
+      "B) 4",
+      "C) 6"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "The AFDCs use MCP data sent:",
+    "choices": [
+      "A) by the MCP channel A",
+      "B) by the MCP channel B",
+      "C) to the master AFDC"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "How many microprocessors are there in a MCP?",
+    "choices": [
+      "A) 1",
+      "B) 2",
+      "C) 3"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 22"
+  },
+  {
+    "question": "When autopilot is engaged after power up, the MCP channel sending data to the AFDCs is:",
+    "choices": [
+      "A) Channel A",
+      "B) Channel B",
+      "C) a random selection of channel A or channel B"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 22"
+  },
+  {
+    "question": "TO 2 on the EICAS indicates that:",
+    "choices": [
+      "A) the autothrottle is available for the 2 engines",
+      "B) takeoff thrust is derated",
+      "C) the 2 TMCFs are available"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 22"
+  },
+  {
+    "question": "Engine trim equalization:",
+    "choices": [
+      "A) equalizes the thrust between the 2 engines without throttle lever movement",
+      "B) sends a command to the throttle lever servo motors",
+      "C) is active whatever the N1% difference between the 2 engines"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 22"
+  },
+  {
+    "question": "When the A/P disengage bar is pushed down:",
+    "choices": [
+      "A) the Bank Angle Protection through the control Wheel is still available",
+      "B) Flight Directors aren't available anymore",
+      "C) the Bank Angle Protection through the control Wheel is lost"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "When the A/P and Autothrottle are active on an airplane just after takeoff the speed is controlled by:",
+    "choices": [
+      "A) the autothrottle",
+      "B) the autopilot",
+      "C) the Flight Director"
+    ],
+    "correctAnswer": "B",
+    "category": "ATA 22"
+  },
+  {
+    "question": "When flying with the autopilot in cruise, how many BackDrive Actuators are engaged?",
+    "choices": [
+      "A) 2",
+      "B) 3",
+      "C) 4"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 22"
+  },
+  {
+    "question": "The MCP switch that doesn't have an annunciator bar is:",
+    "choices": [
+      "A) the A/T switch",
+      "B) the FLCH switch",
+      "C) the CLB/CON switch"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "The master AFDC data:",
+    "choices": [
+      "A) only control its onside Backdrive Actuators (BDA)",
+      "B) control all 6 BDAs during autoland",
+      "C) control its onside BDAs and the MCP channel writing to the MCP LCD displays"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "The autothrottle arm switches on the mode control panel (MCP):",
+    "choices": [
+      "A) Engage the autothrottle",
+      "B) Give power to thrust management function software partition",
+      "C) Give power to the A/T servomotors in the thrust CTL module"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "Thrust Limit modes are displayed on:",
+    "choices": [
+      "A) the EICAS",
+      "B) the ND",
+      "C) the PFD"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 22"
+  },
+  {
+    "question": "An airplane climbs above 400ft after an autopilot Go-Around:",
+    "choices": [
+      "A) above 400ft the bus isolation is not active anymore",
+      "B) the bus isolation stays active until 500ft",
+      "C) the bus isolation stays active until 1500ft"
+    ],
+    "correctAnswer": "A",
+    "category": "ATA 22"
+  },
+  {
+    "question": "In cruise the number of operating AFDCs is:",
+    "choices": [
+      "A) 1",
+      "B) 2",
+      "C) 3"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "The right Backdrive Actuators are connected to:",
+    "choices": [
+      "A) the left AFDC",
+      "B) the center AFDC",
+      "C) the right AFDC"
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+    "question": "When the A/P is disengaged through the disengage bar:",
+    "choices": [
+      "A) both the A/P and FD are disengaged",
+      "B) the A/P engages when the disengage bar is set to the up position (Normal)",
+      "C) the FD is still available."
+    ],
+    "correctAnswer": "C",
+    "category": "ATA 22"
+  },
+  {
+        "question": "The right Backdrive Actuators are connected to:",
+        "choices": [
+            "A) the left AFDC",
+            "B) the center AFDC",
+            "C) the right AFDC"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "When the A/P is disengaged through the disengage bar:",
+        "choices": [
+            "A) both the A/P and FD are disengaged",
+            "B) the A/P engages when the disengage bar is set to the up position (Normal)",
+            "C) the FD is still available"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "The Back Drive Actuator that can engage when the Autopilot isn't engaged is:",
+        "choices": [
+            "A) the rudder pedal BDA",
+            "B) the thrust lever Actuator",
+            "C) the control wheel BDA"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "If the Autothrottle mode on the FMA is SPD:",
+        "choices": [
+            "A) speed is managed by the TMCF",
+            "B) speed is managed by the AFDS",
+            "C) engine thrust is derated not to exceed the VMO"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 22"
+    },
+    {
+        "question": "When AP is engaged as the airplane is in cruise with the Flight Director ON, AP modes are:",
+        "choices": [
+            "A) LNAV and VNAV",
+            "B) FLCH and APP",
+            "C) same as FD modes"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "Autothrottle modes are displayed on:",
+        "choices": [
+            "A) the EFB",
+            "B) the ND",
+            "C) the PFD"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "The normal way to disengage the AutoPilot is:",
+        "choices": [
+            "A) the A/P disengage bar on the MCP",
+            "B) the switch on the control wheel",
+            "C) the A/P switch on the MCP"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 22"
+    },
+    {
+        "question": "When a pilot overrides a Back Drive Actuator:",
+        "choices": [
+            "A) AP disengages and reengages when the override signal is gone",
+            "B) AP disengages and pilots must fly manually",
+            "C) AP stays engaged but the aircraft is manually controlled"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 22"
+    },
+    {
+        "question": "Which AFDC is normally master after the airplane initial power up test?",
+        "choices": [
+            "A) The left AFDC",
+            "B) The center AFDC",
+            "C) The right AFDC"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "During autopilot operation, the PFCs use:",
+        "choices": [
+            "A) data from the master AFDC",
+            "B) data from an AFDC randomly selected",
+            "C) a mid-value selection of the 3 AFDCs"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "The active TMCF selection:",
+        "choices": [
+            "A) is a random selection",
+            "B) starts with the right TMCF and switches to the other side when reselected",
+            "C) is similar to the FMCF selection"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "The A/T disconnect switches are located on:",
+        "choices": [
+            "A) the sides of the thrust levers",
+            "B) the control wheel",
+            "C) the Mode Control Panel (MCP)"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 22"
+    },
+    {
+        "question": "During an autoland the rudder pedal BackDrive Actuators engage at a radio altitude of:",
+        "choices": [
+            "A) 400 Ft",
+            "B) 1500 Ft",
+            "C) 2500 Ft"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 22"
+    },
+    {
+        "question": "In cruise with A/P and Autothrottle ON the altitude is kept by:",
+        "choices": [
+            "A) the autothrottle",
+            "B) the autopilot",
+            "C) the flight director"
+        ],
+        "correctAnswer": "B",
+        "category": "ATA 22"
+    },
+    {
+        "question": "If a mode control switch annunciator bar (green light) is illuminated:",
+        "choices": [
+            "A) the mode is active",
+            "B) the mode is armed",
+            "C) the mode can be either active or armed"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "When in cruise without failure, the Autopilot configuration is:",
+        "choices": [
+            "A) 1 AFDC engaged",
+            "B) 2 AFDCs engaged with 1 as master",
+            "C) 3 AFDCs engaged with 1 as master"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "ILS antenna switching is controlled by:",
+        "choices": [
+            "A) the onside AFDC",
+            "B) the active TMCF",
+            "C) the onside Radio Altimeter"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 22"
+    },
+    {
+        "question": "When the left A/P switch is pushed:",
+        "choices": [
+            "A) one of the AFDCs is randomly selected as master",
+            "B) the Autopilot is either engaged or disengaged",
+            "C) all available AFDCs engage"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "In approach when the flight crew push either TO/GA switch once:",
+        "choices": [
+            "A) the autothrottle disconnects",
+            "B) the Thrust Limit Mode is TO",
+            "C) AFDS supplies a pitch up command, TMCS thrust maintains a 2000 ft/min climb"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "To reset the A/P disengage warning (wailer):",
+        "choices": [
+            "A) press the A/P switch on the MCP",
+            "B) push one of the Master Warning Lights",
+            "C) push on the A/P disengage switch on the control wheel"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "How many BackDrive Actuators are engaged at 700ft after an autopilot go-around?",
+        "choices": [
+            "A) 2",
+            "B) 4",
+            "C) 6"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "When the autothrottle is active, the thrust reduction after takeoff:",
+        "choices": [
+            "A) must always be initiated by a pilot action on the CLB/CON switch",
+            "B) is automatic at a preset radio altitude whatever the autoflight pitch mode is",
+            "C) is automatic at a preset radio altitude or flap setting if VNAV is active"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "For Engine Trim Equalization:",
+        "choices": [
+            "A) EEC Lh and Rh exchange data to keep synchronized",
+            "B) the TMCF sends engine trim commands to the thrust lever servo motors",
+            "C) the TMCF sends engine trim commands to the EECs"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "When the Autopilot pitch mode is VNAV SPD the airspeed is controlled by:",
+        "choices": [
+            "A) the Autopilot through the elevator",
+            "B) the Autothrottle",
+            "C) a mix of Autothrottle and Autopilot"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 22"
+    },
+    {
+        "question": "The Bank Angle Protection triggers when the:",
+        "choices": [
+            "A) autopilot disengages",
+            "B) airplane is about to stall",
+            "C) PFCS is in the Normal mode and the airplane bank angle is more than 35 deg"
+        ],
+        "correctAnswer": "C",
+        "category": "ATA 22"
+    },
+    {
+        "question": "You engage the Autopilot for the 1st time with the Rh A/P switch on an MCP which microprocessor B is failed:",
+        "choices": [
+            "A) the Right AFDC is master",
+            "B) the Left AFDC is master",
+            "C) the A/P disengages"
+        ],
+        "correctAnswer": "A",
+        "category": "ATA 22"
+    },	
+  {
         "question": "With the autopilot engaged or disengaged, if the airplane bank angle exceeds 35 degrees, the bank angle protection (BAP) function operates. The backdrive actuators will move:",
         "choices": [
             "A) The control columns",
