@@ -220,6 +220,346 @@ const allQuestions = [
         "correctAnswer": "A",
         "category": "ATA 22"
     },
+ {
+      "question": "The aircraft position displayed on the ND is:",
+      "choices": [
+        "A) a GPS position",
+        "B) a Radio Navigation position",
+        "C) a FMCF computed position"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The B777 has:",
+      "choices": [
+        "A) 1 Flight Management Computing Function",
+        "B) 2 Flight Management Computing Functions",
+        "C) 3 Flight Management Computing Functions"
+      ],
+      "correctAnswer": "B",
+      "category": "ATA 34"
+    },
+    {
+      "question": "You can select the active Flight Management Computing Function with:",
+      "choices": [
+        "A) the F/O display switching panel FMC selector",
+        "B) the CAPT or F/O CDU",
+        "C) the Mode Control Panel"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The GPWS gives warnings:",
+      "choices": [
+        "A) related to unsafe air traffic separation",
+        "B) of unsafe flight conditions when the airplane is in cruise",
+        "C) of unsafe flight conditions below 2450 feet Radio Altitude"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "Flight Management Computing Functions are software in:",
+      "choices": [
+        "A) the 3 Autopilot Flight Director Computers",
+        "B) the 2 AIMS cabinets",
+        "C) the Mode Control Panel processors"
+      ],
+      "correctAnswer": "B",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The ground test of the CDU is in the:",
+      "choices": [
+        "A) ATA 22",
+        "B) ATA 23",
+        "C) ATA 34"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The Flight Management Computing System:",
+      "choices": [
+        "A) supplies the Synoptic pages to the crews",
+        "B) sends orders to the EECs to control engine thrust",
+        "C) supplies flight plan control data and navigation calculations"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The pages that the flight crew uses to enter pre-flight data into the FMCS are accessible from:",
+      "choices": [
+        "A) the CDUs",
+        "B) the EFB Display Units",
+        "C) the MFDs"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "In case of simultaneous GPWS, TCAS and WXR warnings the priority is:",
+      "choices": [
+        "A) GPWS - TCAS - WXR",
+        "B) GPWS - WXR - TCAS",
+        "C) WXR - TCAS - GPWS"
+      ],
+      "correctAnswer": "B",
+      "category": "ATA 34"
+    },
+    {
+      "question": "In case of simultaneous GPWS and WXR warnings priorities are managed by:",
+      "choices": [
+        "A) the Warning Electronic System",
+        "B) the Ground Proximity Warning System",
+        "C) the Weather Radar"
+      ],
+      "correctAnswer": "B",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The GPWC sends its aural alerts and warnings:",
+      "choices": [
+        "A) directly to the aural warning speakers",
+        "B) to the Warning Electronic System",
+        "C) to the AIMS cabinets"
+      ],
+      "correctAnswer": "B",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The 2 Flight Management Computing Functions:",
+      "choices": [
+        "A) operate simultaneously",
+        "B) operate one at a time",
+        "C) compute only the horizontal flight plan"
+      ],
+      "correctAnswer": "B",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The FMC switch on the F/O Display Switching Panel:",
+      "choices": [
+        "A) makes sure that the FMCF and TMCF operate in different cabinets",
+        "B) selects the active FMCF and Autopilot",
+        "C) selects the active FMCF and TMCF"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "If the 2 FMCFs fail:",
+      "choices": [
+        "A) the CDUs can supply LNAV",
+        "B) the autopilot becomes inoperative",
+        "C) the CDUs can supply VNAV"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The FMC COMM page is displayed by:",
+      "choices": [
+        "A) the FMC COMM key on the CDU",
+        "B) the COMM key on the DSP",
+        "C) the COMM key on the EFIS Control Panel"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The SET HDG field of the CDU POS INIT page 1/3 is:",
+      "choices": [
+        "A) to provide heading to the SAARU in case of ADIRU failure",
+        "B) to align the ADIRU",
+        "C) to align the SAARU"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "CDUs are part of:",
+      "choices": [
+        "A) the Airplane Information Management System",
+        "B) the Primary Display System",
+        "C) the Flight Management System"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The Airline Policy page relates to:",
+      "choices": [
+        "A) FMCS operational flight program and data base identification Numbers",
+        "B) the reference airplane initial position",
+        "C) Airline Modifiable Information"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The Inertial Monitor page relates to:",
+      "choices": [
+        "A) FMCF computation errors",
+        "B) ADIRU drift",
+        "C) GPS position update from the ADIRU"
+      ],
+      "correctAnswer": "B",
+      "category": "ATA 34"
+    },
+    {
+      "question": "LNAV is:",
+      "choices": [
+        "A) INOP if the 2 FMCFs are failed",
+        "B) computed by the Autopilot Flight Director Computers",
+        "C) computed by a CDU in case of failure of the FMCFs"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "Dashes replace box prompts on the CDU 'POSITION INIT' page when:",
+      "choices": [
+        "A) the ADIRU alignment fails",
+        "B) the GPS position is available",
+        "C) the ADIRU alignment is in progress"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "Time Critical Warnings from the GPWS are:",
+      "choices": [
+        "A) Windshear and pull-up",
+        "B) Pull-up and terrain",
+        "C) Windshear ahead and terrain"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "The purpose of the TERRAIN OVERRIDE switch is:",
+      "choices": [
+        "A) to inhibit TERRAIN alerts",
+        "B) to prevent Controlled Flight Into Terrain from happening",
+        "C) to automatically go around a TERRAIN threat"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "When the FMCF has an active flight plan the VOR receiver is tuned by:",
+      "choices": [
+        "A) the Radio Tuning Panel",
+        "B) the center CDU 'Nav Radio' page",
+        "C) the left or right AIMS"
+      ],
+      "correctAnswer": "C",
+      "category": "ATA 34"
+    },
+    {
+      "question": "For mode 5 (below Glide Slope) alerts computation the GPWC gets data from:",
+      "choices": [
+        "A) the left MMR",
+        "B) the center MMR",
+        "C) the right MMR"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+    },
+    {
+      "question": "If the 2 Flight Management Computing Functions fail:",
+      "choices": [
+        "A) the on-side control display unit (CDU) supplies map data to the on-side ND",
+        "B) map and navigation data are lost",
+        "C) the center CDU supplies map data to the 2 NDs"
+      ],
+      "correctAnswer": "A",
+      "category": "ATA 34"
+},
+{
+  "question": "The purpose of VNAV is to:",
+  "choices": [
+    "A) compute the necessary thrust to perform a FL change in 120 seconds",
+    "B) provide MAP data to the PDS for display on the ND",
+    "C) control A/C vertical path and speed to comply with the FLT plan constraints"
+  ],
+  "correctAnswer": "C",
+  "category": "ATA 34"
+},
+{
+  "question": "If the GPWC determines that there is a terrain threat:",
+  "choices": [
+    "A) the terrain display shows on both NDs if not selected on either one",
+    "B) the Flight crew must display the terrain via the TERR switch on the EFIS CP",
+    "C) the WXR display has to be stopped to be replaced by the Terrain threat"
+  ],
+  "correctAnswer": "A",
+  "category": "ATA 34"
+},
+{
+  "question": "If the 2 Flight Management Computing Functions fail:",
+  "choices": [
+    "A) the on-side CDU supplies NAV data to the on-side Autopilot",
+    "B) LNAV and VNAV commands to the Autopilot are lost",
+    "C) L, CTR or R CDU (priority with all CDUs valid) supplies LNAV data to the AP"
+  ],
+  "correctAnswer": "C",
+  "category": "ATA 34"
+},
+{
+  "question": "In the Alternate LNAV function, to supply navigation outputs, the CDUs use data from:",
+  "choices": [
+    "A) the ADIRU only",
+    "B) the ADIRU updated by radio position",
+    "C) the ADIRU updated by GPS position"
+  ],
+  "correctAnswer": "A",
+  "category": "ATA 34"
+},
+{
+  "question": "The FMCF displays alerting messages when there is a degraded system condition. The highest message priority is:",
+  "choices": [
+    "A) Data entry error advisory messages. Ex: \"NOT IN DATA BASE\"",
+    "B) Operational messages. Ex: \"END OF ROUTE\"",
+    "C) Communication messages. Ex: \"PERF INIT UPLINK\""
+  ],
+  "correctAnswer": "A",
+  "category": "ATA 34"
+},
+{
+  "question": "When the 2 FMCFs and the left CDU are failed:",
+  "choices": [
+    "A) LNAV is INOP if the A/P is engaged from the left A/P switch on the MCP",
+    "B) LNAV and VNAV guidance commands are sent to the A/P by the center CDU",
+    "C) LNAV guidance commands are sent to the A/P by the center CDU"
+  ],
+  "correctAnswer": "C",
+  "category": "ATA 34"
+},
+{
+  "question": "Which function isn't an EGPWS function:",
+  "choices": [
+    "A) Runway Awareness and Advisory System",
+    "B) Windshear",
+    "C) Predictive windshear"
+  ],
+  "correctAnswer": "C",
+  "category": "ATA 34"
+},
+{
+  "question": "The GPWC makes these aurals come on when it receives a request from the AIMS cabinets:",
+  "choices": [
+    "A) \"Approaching minimums\" and \"Bank Angle\"",
+    "B) \"Engine Fail\" and \"V1\"",
+    "C) \"Too low gear\" and \"Too low flaps\""
+  ],
+  "correctAnswer": "B",
+  "category": "ATA 34"
+},
 	{
     "question": "ADF antennas are located:",
     "choices": [
