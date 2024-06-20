@@ -15390,6 +15390,8 @@ const allQuestions = [
 },	
   ];
 
+document.addEventListener('DOMContentLoaded', () => {
+
 let currentQuestion = 0;
 let score = 0;
 let timer;
@@ -15559,3 +15561,23 @@ function restartQuiz() {
 }
 
 displayCategories();
+
+
+  const toggleCheckbox = document.getElementById('dark-mode-toggle');
+    const currentMode = localStorage.getItem('dark-mode');
+
+    if (currentMode === 'enabled') {
+        document.body.classList.add('dark-mode');
+        toggleCheckbox.checked = true;
+    }
+
+    toggleCheckbox.addEventListener('change', () => {
+        if (toggleCheckbox.checked) {
+            document.body.classList.add('dark-mode');
+            localStorage.setItem('dark-mode', 'enabled');
+        } else {
+            document.body.classList.remove('dark-mode');
+            localStorage.setItem('dark-mode', 'disabled');
+        }
+    });
+});	
