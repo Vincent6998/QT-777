@@ -15410,11 +15410,10 @@ function sortCategories(categories) {
         return numA - numB;
     });
 }
-
 function displayCategories() {
     console.log("Displaying categories...");
     let categories = [...new Set(allQuestions.map(question => question.category))];
-    categories = sortCategories(categories);
+categories = sortCategories(categories);
     let categoriesHTML = categories.map(category => `<label><input type="checkbox" value="${category}">${category}</label>`).join("");
     let categoriesElement = document.getElementById("categories");
     if (categoriesElement) {
@@ -15491,11 +15490,7 @@ function checkAnswer() {
         choices.forEach((choice) => {
             choice.disabled = true;
         });
-
-        const nextButton = document.getElementById("nextButton");
-        if (nextButton) {
-            nextButton.disabled = false;
-        }
+        document.getElementById("nextButton").disabled = false;
 
         clearTimeout(timer);
         startTimer();
@@ -15564,22 +15559,3 @@ function restartQuiz() {
 }
 
 displayCategories();
-
-
-  const toggleCheckbox = document.getElementById('dark-mode-toggle');
-    const currentMode = localStorage.getItem('dark-mode');
-
-    if (currentMode === 'enabled') {
-        document.body.classList.add('dark-mode');
-        toggleCheckbox.checked = true;
-    }
-
-    toggleCheckbox.addEventListener('change', () => {
-        if (toggleCheckbox.checked) {
-            document.body.classList.add('dark-mode');
-            localStorage.setItem('dark-mode', 'enabled');
-        } else {
-            document.body.classList.remove('dark-mode');
-            localStorage.setItem('dark-mode', 'disabled');
-        }
-    });
